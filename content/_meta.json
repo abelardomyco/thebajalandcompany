@@ -1,0 +1,28 @@
+{
+  "pages": [
+    { "id": "home", "file": "homepage.md", "description": "Welcome, project blurbs, section headings, footer" },
+    { "id": "about", "file": "about.md", "description": "About page body" },
+    { "id": "blog-listing", "description": "Blog index; posts in content/blog/" }
+  ],
+  "blogPosts": [
+    { "slug": "american-ex-pats-in-mexico", "file": "blog/american-ex-pats-in-mexico.md" },
+    { "slug": "buying-land-in-mexico", "file": "blog/buying-land-in-mexico.md" }
+  ],
+  "images": {
+    "logo": { "path": "/images/logo.png", "usage": "Header / site logo" },
+    "gallery": [
+      { "path": "/images/gallery/01-rancho-escondida-view.png", "caption": "Rancho La Escondida view" },
+      { "path": "/images/gallery/02-img-0947.jpg", "caption": "Gallery" },
+      { "path": "/images/gallery/03-property-view.png", "caption": "Property view" },
+      { "path": "/images/gallery/04-img-1382.jpg", "caption": "Gallery" },
+      { "path": "/images/gallery/05-property-view.png", "caption": "Property view" },
+      { "path": "/images/gallery/06-img-1358.jpg", "caption": "Gallery" },
+      { "path": "/images/gallery/07-img-0930.jpg", "caption": "Gallery" }
+    ],
+    "properties": [
+      { "path": "/images/properties/industrial-park.png", "caption": "Industrial Park section" },
+      { "path": "/images/properties/lots.jpg", "caption": "Lots section" }
+    ]
+  },
+  "source": "Scraped from thebajalandcompany.com. New site should use only this content (no mocks)."
+}

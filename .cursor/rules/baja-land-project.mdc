@@ -1,0 +1,29 @@
+---
+description: The Baja Land Company — real estate site context, content, and no-mock-data rule
+alwaysApply: true
+---
+
+# The Baja Land Company — Project Rules
+
+## Project identity
+
+- **Site:** The Baja Land Company — land and property in Baja California, Mexico (American market).
+- **Content source:** All copy lives in `content/` (Markdown). All images live in `public/images/`. Use only this content; no mock or placeholder data anywhere in the site.
+- **Reference:** `content/_meta.json` lists pages, blog posts, and image paths/captions.
+
+## Tech and structure
+
+- New site will be built in this repo (framework TBD: e.g. Next.js, static). Read copy from `content/*.md` and assets from `public/images/`.
+- Fix or add copy only by editing files in `content/`; do not hardcode long text in components.
+
+## In-scope work
+
+- **SEO:** Meta tags, titles, Open Graph, Twitter cards, sitemap, robots.txt, structured data (e.g. LocalBusiness, RealEstateAgent), canonical URLs.
+- **Integrations:** Listing/MLS-style feeds, Zillow/Redfin or similar (APIs, embeds, or syndication where applicable). Use real integration docs and env vars; no fake APIs.
+- **Sales and leads:** Contact forms, lead capture, CTAs, optional CRM or email hooks. Store or send real data only.
+- **Property management:** Property listings (from content or feeds), status, filters, detail pages, images from `public/images/`.
+
+## Constraints
+
+- No mock data. If a feature needs data (listings, leads, analytics), wire it to real config (env, CMS, or API) and document what’s required; leave no fake data in the codebase.
+- Keep content authoritative: Baja land, fideicomiso, ex-pats, and property info should align with existing `content/` and any official sources you reference.

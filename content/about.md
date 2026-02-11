@@ -1,0 +1,3 @@
+# About
+
+I have been learning about land, construction and realty most of my life. Growing up, my father owned a construction material business and my mother is currently a realtor. When I wanted to find land and procedures on how to buy land in Baja, I was not able to find anything that compiled the things I wanted and needed to see for the American market to acquire land and property there. With this in mind, I reserved this domain and had been looking at how to put my ideas together coherently to build the site. While currently very basic, I hope to keep growing this project as I believe it is in need and that the proximity to the U.S. helps Americans' confidence in heading down to their weekend getaway or their dream house, and it all starts with a piece of land.
